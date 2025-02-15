@@ -26,8 +26,15 @@ Alguns dos principais desafios enfrentados incluem:
 
 ## 3. Solução
 
+Utilização do grafana para acompanhamento de indicadores da máquina. Aqui para simulação, estamos utilizando uma licença gratuita do windows server. Para isso, configuramos os exportadores definidos na página [all in one do grafana](https://grafana.com/grafana/dashboards/21674-all-in-one/); em especíifico o windows exporter do prometheus, e o currency exporter; repositório do github que acompanha várias trocas de moeda; isso para simular o monitoramento dos indicadores da máquina e uma aplicação (visualmente seu funcionamento).
+
+Após as configurações, importamos a configuração do grafana que agrupa as visualizações de estado necessárias. Nas imagens abaixo seguem~exemplos de funcionamento inicial e gradativo da monitoração.
+
+![image](https://github.com/user-attachments/assets/9b49abf2-cc6d-48d5-990e-372bd2ad4430)
+
+
 ## 4. Referências
 
 - [Laboratório grafana](https://grafana.com/grafana/dashboards/21674-all-in-one/)
-- [Principais Ferramentas de Monitoramento do Windows Server para 2024] (https://rds-tools.com/pt/top-windows-server-monitoring-tools/)
-- [Solucionar problema de monitoramento] (https://learn.microsoft.com/pt-br/windows-server-essentials/support/troubleshoot-computer-monitoring-in-windows-server-essentials)
+- [Principais Ferramentas de Monitoramento do Windows Server para 2024](https://rds-tools.com/pt/top-windows-server-monitoring-tools/)
+- [Solucionar problema de monitoramento](https://learn.microsoft.com/pt-br/windows-server-essentials/support/troubleshoot-computer-monitoring-in-windows-server-essentials)
