@@ -1,7 +1,7 @@
 # Projeto Final - Gerenciamento de Configurações @ UFMT/2025
 
 - Tecnologia: [Grafana](https://grafana.com/)
-- Tecnologias aplicadas: Windows home, grafana.
+- Tecnologias aplicadas: Windows home, grafana, prometheus.
 - Integrantes:
   - Gabriel de Sousa Gomes Pedroso
   - Paulo Cézar Menichini
